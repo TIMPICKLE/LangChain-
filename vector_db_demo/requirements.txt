@@ -1,0 +1,9 @@
+langchain==0.3.0
+# 更新 langchain-community 版本，使其与 langchain 0.3.0 兼容
+langchain-community>=0.1.0
+# 使用与 langchain 0.3.0 兼容的 langchain-core 版本
+langchain-core>=0.3.0,<0.4.0
+sentence-transformers==2.5.1
+faiss-cpu==1.7.4
+python-dotenv==1.0.1
+requests==2.31.0
